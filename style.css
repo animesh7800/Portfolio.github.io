@@ -1,0 +1,216 @@
+/* Default css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #d8d8d8;
+  }
+/* utlity class */
+.h-secondary {
+    font-size: 2.8vw;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    background-color: red;
+    height: 1px;
+    width: 70%;
+    margin-left: 15%;
+  }
+/* home Section */
+#home {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image: url(http://bit.ly/2gPLxZ4);
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .blurred-box {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    top: calc(50% - 175px);
+    left: calc(50% - 125px);
+    background: inherit;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  
+  .blurred-box:after {
+    content: '';
+    width: 500px;
+    height: 300px;
+    background: inherit;
+    position: absolute;
+    left: -25px;
+    left: position;
+    right: 0;
+    top: -25px;
+    top: position;
+    bottom: 0;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+    filter: blur(10px);
+  }
+  
+  .sub-heading {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  
+  /* Form which you dont need */
+  .user-login-box {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .user-login-box>* {
+    display: inline-block;
+    width: 200px;
+  }
+  
+  .user-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    background-size: contain;
+    /* background-image: url(https://scontent.fpat3-2.fna.fbcdn.net/v/t1.0-9/75513501_149825633025158_5096427507901530112_o.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=P0C9vnYU1D4AX-sqpIn&_nc_ht=scontent.fpat3-2.fna&oh=3f2d170e6cb5ae2f1b129416c0454638&oe=5F9A7756); */
+    background-image: url(image/animesh.jpeg);
+  }
+  
+  .user-name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  /* Skills */
+.slide-track {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+  }
+  
+  #centre-name {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.4rem;
+  }
+  /*Work  */
+  #work {
+    display: grid;
+    margin: 34px 20px 20px 20px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  }
+  
+  #work .box {
+    border: 2px solid #000;
+    padding: 30px;
+    margin: 3px 8px;
+    border-radius: 23px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  #work img {
+    display: block;
+    height: 120px;
+    margin: auto;
+  }
+  
+  #work ul li {
+    font-family: 'Merriweather', serif;
+  }
+ 
+ /* footer */
+footer {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+ 
+  
+  .social-menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .social-menu {
+    list-style: none;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-menu ul li {
+    margin: 0 20px;
+    list-style-type: none;
+  }
+  
+  .social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+  }
+  
+  .social-menu ul li .fa:hover {
+    color: #ffffff;
+  }
+  
+  .social-menu ul li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0, 0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+  }
+  
+  .social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+  }
+  
+  .social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+  }
+  
+  .social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+  }
+  
+  .social-menu ul li:nth-child(4) a:hover {
+    background-color: #0077B5;
+  }
+  
+  .social-menu ul li:nth-child(5) a:hover {
+    background-color: #4a4343;
+  }
+  
